@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+env/
+.venv/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset
+dataset/lfw-deepfunneled/
+dataset/lfw/
+
+# Generated embeddings
+embeddings/*.npz
+embeddings/*_failed.txt
+
+# Pretrained model weights
+weights/
+.model_weights/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+
+# Dataset archive
+dataset/*.zip
+
+# Environment-generated files
+share/
+
+# Generated package metadata
+package_info.json
+requirements_*.txt
